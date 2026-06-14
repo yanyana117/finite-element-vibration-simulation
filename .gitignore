@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# FEniCS / ParaView output
+*.h5
+*.xdmf
+*.pvd
+*.vtu
+*.pvtu
+*.curve
+
+# Local solver/build artifacts
+jitfailure-*/
+*.log
+
+# Office temp files
+~$*
